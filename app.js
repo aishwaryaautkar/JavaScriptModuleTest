@@ -200,10 +200,31 @@ const closeRules=()=>{
 
 }
 
+
+
 const displayRules = ()=>{
     let rules = document.querySelector(".rules");
     rules.style.display = "";
 
     let cross = document.querySelector(".cross-btn");
     cross.style.display="flex";
+}
+const displayRuleswin = ()=>{
+  let rules = document.querySelector(".rules-win");
+  rules.style.display = "flex";
+
+  let cross = document.querySelector(".cross-btn-win");
+  cross.style.display="flex";
+
+
+}
+
+
+const closeRuleswin=()=>{
+  let rules = document.querySelector(".rules-win");
+  rules.style.display ="none";
+
+  let cross = document.querySelector(".cross-btn-win");
+  cross.style.display="none";
+
 }
